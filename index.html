@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clusterra — $95 AI Opportunity Audit: 3 payback-mapped wins in 5 days</title>
+<meta name="description" content="Three automation wins worth 10+ hours a week, mapped with payback math, plus your number-one win scoped to a fixed-price build. Delivered in 5 business days. $95 flat, credited in full toward a build booked within 21 days.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nikhil-tahalramani.github.io/clusterra-offer/">
+<link rel="canonical" href="https://nikhil-tahalramani.github.io/clusterra-offer/">
+<meta property="og:title" content="$95 AI Opportunity Audit — three payback-mapped wins in 5 business days">
+<meta property="og:description" content="Solo operators and small teams: three automation wins worth 10+ hours a week, mapped with payback math. $95 flat, credited in full toward a from-$590 build within 21 days.">
+<meta property="og:image" content="https://nikhil-tahalramani.github.io/clusterra-offer/og-summary.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://nikhil-tahalramani.github.io/clusterra-offer/og-summary.png">
+<style>
+  :root{
+    --ink:#12151b; --ink-2:#3d4552; --ink-3:#6b7480; --line:#e2e6ec;
+    --paper:#ffffff; --tint:#f6f8fb; --accent:#0b5fff; --accent-ink:#0a49c9;
+    --warn:#b4451f; --warn-tint:#fdf3ee; --ok:#0e6b45; --ok-tint:#eef7f2;
+    --radius:14px; --maxw:960px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--paper); color:var(--ink);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  }
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 20px}
+  h1,h2,h3{line-height:1.18; margin:0 0 .5em; letter-spacing:-.01em}
+  h1{font-size:clamp(1.55rem,5.2vw,2.6rem)}
+  h2{font-size:clamp(1.2rem,3.6vw,1.7rem); margin-top:0}
+  h3{font-size:1rem; margin-bottom:.3em}
+  p{margin:0 0 1em}
+  a{color:var(--accent-ink)}
+  .muted{color:var(--ink-3)}
+  .rule{height:1px; background:var(--line); border:0; margin:0}
+
+  /* ---------- top bar ---------- */
+  header.bar{border-bottom:1px solid var(--line); background:var(--paper)}
+  .bar-in{display:flex; align-items:center; justify-content:space-between; gap:12px; padding-top:14px; padding-bottom:14px}
+  .brand{font-weight:700; letter-spacing:-.01em; font-size:1rem}
+  .brand span{color:var(--ink-3); font-weight:500}
+  .bar a.cta-sm{font-size:.85rem; font-weight:600; text-decoration:none; white-space:nowrap}
+
+  /* ---------- hero ---------- */
+  .hero{padding-top:40px; padding-bottom:26px}
+  .eyebrow{
+    display:inline-block; font-size:.78rem; font-weight:700; letter-spacing:.09em;
+    text-transform:uppercase; color:var(--accent-ink); background:#eef3ff;
+    border:1px solid #d7e2ff; border-radius:999px; padding:5px 11px; margin-bottom:16px;
+  }
+  .hero p.sub{font-size:clamp(1rem,2.6vw,1.2rem); color:var(--ink-2); max-width:62ch}
+  .ctas{display:flex; flex-wrap:wrap; gap:10px; margin:22px 0 16px}
+  .btn{
+    display:inline-block; text-decoration:none; font-weight:700; font-size:1rem;
+    padding:14px 20px; border-radius:10px; border:1px solid transparent;
+  }
+  .btn-primary{background:var(--accent); color:#fff}
+  .btn-primary:hover{background:var(--accent-ink)}
+  .btn-ghost{background:var(--paper); color:var(--ink); border-color:var(--line)}
+  .btn-ghost:hover{border-color:var(--ink-3)}
+  .trust{list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:8px 18px}
+  .trust li{font-size:.87rem; color:var(--ink-2); display:flex; align-items:center; gap:7px}
+  .tick{color:var(--ok); font-weight:700}
+
+  /* ---------- sections ---------- */
+  section{padding:34px 0}
+  .band{background:var(--tint); border-top:1px solid var(--line); border-bottom:1px solid var(--line)}
+  .grid3{display:grid; grid-template-columns:repeat(3,1fr); gap:14px}
+  .card{border:1px solid var(--line); border-radius:var(--radius); padding:18px; background:var(--paper)}
+  .card .who{font-size:.76rem; font-weight:700; letter-spacing:.07em; text-transform:uppercase; color:var(--ink-3); margin-bottom:8px}
+  .cost{margin:0; font-size:.92rem; color:var(--ink-2)}
+  .cost b{color:var(--warn)}
+
+  /* ---------- readout table ---------- */
+  .readout-wrap{border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; background:var(--paper)}
+  table.readout{border-collapse:collapse; width:100%}
+  table.readout caption{text-align:left; padding:14px 16px; font-size:.86rem; color:var(--ink-3)}
+  table.readout th,table.readout td{padding:12px 16px; text-align:left; border-top:1px solid var(--line); font-size:.94rem; vertical-align:top}
+  table.readout thead th{background:var(--tint); border-top:0; font-size:.76rem; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-3)}
+  table.readout td.num{font-variant-numeric:tabular-nums; white-space:nowrap}
+  table.readout tfoot td{background:var(--tint); font-weight:700}
+  a.src{font-size:.86rem; font-weight:600}
+  .src-note{margin:12px 0 0; font-size:.9rem; color:var(--ink-2)}
+
+  /* ---------- tiers ---------- */
+  .tier{border:1px solid var(--line); border-radius:var(--radius); padding:18px; background:var(--paper); display:flex; flex-direction:column}
+  .tier.hero-tier{border-color:var(--accent); box-shadow:0 0 0 3px #eef3ff}
+  .tier .price{font-size:1.7rem; font-weight:800; letter-spacing:-.02em; margin:2px 0 2px}
+  .tier .price small{font-size:.8rem; font-weight:600; color:var(--ink-3); display:block; letter-spacing:0}
+  .tier .term{font-size:.85rem; color:var(--ink-3); margin-bottom:12px}
+  .tier ul{margin:0 0 14px; padding-left:18px; font-size:.92rem; color:var(--ink-2)}
+  .tier ul li{margin-bottom:5px}
+  .lock{
+    margin-top:auto; border-top:1px dashed var(--line); padding-top:12px; font-size:.88rem; color:var(--ink-2);
+  }
+  .lock .tag{
+    display:inline-block; font-size:.68rem; font-weight:800; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--ok); background:var(--ok-tint); border-radius:4px; padding:2px 6px; margin-right:6px;
+  }
+  .lock .name{font-weight:700; color:var(--ink)}
+
+  /* ---------- anchors ---------- */
+  .anchors{list-style:none; margin:0; padding:0; font-size:.95rem}
+  .anchors li{padding:10px 0; border-bottom:1px solid var(--line); color:var(--ink-2)}
+  .anchors li:last-child{border-bottom:0}
+  .anchors b{color:var(--ink)}
+
+  .callout{background:var(--warn-tint); border:1px solid #f2ddd3; border-radius:var(--radius); padding:16px}
+  .callout p:last-child{margin-bottom:0}
+
+  .ogcard{max-width:520px; width:100%; height:auto; border:1px solid var(--line); border-radius:10px; display:block}
+
+  footer.end{padding:34px 0 46px; border-top:1px solid var(--line)}
+  .sig{font-size:1rem; color:var(--ink-2); margin-top:18px}
+
+  @media (max-width:760px){
+    .grid3{grid-template-columns:1fr}
+    table.readout thead{display:none}
+    table.readout tr{display:block; border-top:1px solid var(--line); padding:6px 0}
+    table.readout tr:first-child{border-top:0}
+    table.readout td{display:flex; justify-content:space-between; gap:14px; border:0; padding:6px 16px}
+    table.readout td::before{content:attr(data-label); font-size:.74rem; letter-spacing:.05em; text-transform:uppercase; color:var(--ink-3); flex:0 0 auto}
+    table.readout tfoot td{background:transparent}
+    table.readout tfoot tr{border-top:1px solid var(--line); background:var(--tint)}
+  }
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <div class="wrap bar-in">
+    <div class="brand">Clusterra <span>· offer-first services</span></div>
+    <a class="cta-sm" href="#book">Book a 15-min call →</a>
+  </div>
+</header>
+
+<main>
+
+  <div class="wrap hero">
+    <span class="eyebrow">AI Opportunity Audit · $95 flat</span>
+    <h1 id="hero-h1">Solo operators and small teams: the evenings lost to outreach, turned into three payback-mapped wins in five days.</h1>
+    <p class="sub">Three automation wins worth 10+ hours a week, mapped with payback math — plus your number-one win scoped to a fixed-price build. Delivered in 5 business days. The $95 is credited in full toward a build booked within 21 days.</p>
+
+    <div class="ctas" id="book">
+      <a class="btn btn-primary" href="https://cal.com/nikhiltahalramani/catchup-1-1">Book a 15-min call →</a>
+      <a class="btn btn-ghost" href="mailto:nikhil@clusterra.cloud">Email nikhil@clusterra.cloud</a>
+    </div>
+
+    <ul class="trust">
+      <li><span class="tick">✓</span> link plus sheet, no new login</li>
+      <li><span class="tick">✓</span> source link on every row</li>
+      <li><span class="tick">✓</span> data deleted in 7 days, overage pauses, never auto-bills</li>
+    </ul>
+  </div>
+
+  <hr class="rule">
+
+  <section>
+    <div class="wrap">
+      <h2>Three ways the week goes missing</h2>
+      <p class="muted">Each one is observable in your own records before we touch anything. The audit names which one is bleeding, with your numbers on it.</p>
+      <div class="grid3">
+        <div class="card">
+          <div class="who">Solo operator · 1–3 people</div>
+          <h3>Distribution eats building time</h3>
+          <p class="cost">Three to five founder evenings a week go to outreach that should run itself. <b>Every evening prospecting is an evening not shipping.</b></p>
+        </div>
+        <div class="card">
+          <div class="who">Indie founder · does own outreach</div>
+          <h3>Duct-tape toolchain</h3>
+          <p class="cost">Enrichment rots, bounces, free-tier limits, manual dedupe in sheets. <b>Last list had stale rows and catch-alls — an evening burned.</b></p>
+        </div>
+        <div class="card">
+          <div class="who">Small business · 10–50 staff</div>
+          <h3>Missed calls are missed jobs</h3>
+          <p class="cost">Five to ten missed a week, callback next day, two quotes late. <b>One lost deal is $470-plus (₹40,000).</b></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="band">
+    <section>
+      <div class="wrap">
+        <h2>What the readout looks like</h2>
+        <p class="muted">Page one of the audit: three wins ranked by hours saved times ease, a 90-day roadmap, and a fixed build quote for win number one. Every row carries the link it came from — the thread, doc, sheet or log — so you can open it and check the number yourself.</p>
+
+        <div class="readout-wrap">
+          <table class="readout">
+            <caption>Audit readout — shape of the deliverable. Real audits carry your numbers and your records.</caption>
+            <thead>
+              <tr><th scope="col">Win</th><th scope="col">Hours back / week</th><th scope="col">Payback</th><th scope="col">Source</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Win">Missed-call textback + booking</td>
+                <td data-label="Hours back / week" class="num">6.0</td>
+                <td data-label="Payback" class="num">3.1 months</td>
+                <td data-label="Source"><a class="src" href="#source-rule">call log →</a></td>
+              </tr>
+              <tr>
+                <td data-label="Win">Follow-up on warm threads</td>
+                <td data-label="Hours back / week" class="num">4.5</td>
+                <td data-label="Payback" class="num">1.4 months</td>
+                <td data-label="Source"><a class="src" href="#source-rule">inbox thread →</a></td>
+              </tr>
+              <tr>
+                <td data-label="Win">Stale-list revival: dedupe + enrich</td>
+                <td data-label="Hours back / week" class="num">2.5</td>
+                <td data-label="Payback" class="num">2.2 months</td>
+                <td data-label="Source"><a class="src" href="#source-rule">sheet row →</a></td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td data-label="Win">Total</td>
+                <td data-label="Hours back / week" class="num">13.0</td>
+                <td data-label="Payback" class="num">—</td>
+                <td data-label="Source">3 links →</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+        <p class="src-note" id="source-rule"><b>Source link on every row.</b> Nothing is asserted without the record it came from. If a number cannot be traced to your own data, it does not go in the readout.</p>
+      </div>
+    </section>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <h2>The ladder: audit → build → team</h2>
+      <p class="muted">One chain, three fixed packages. Vertical-agnostic. The audit is the door, the build is the core, the team is continuity. All four guarantees below are locked and quoted as written.</p>
+
+      <div class="grid3">
+        <div class="tier hero-tier">
+          <div class="who">Tier 1 · the entry</div>
+          <h3>AI Opportunity Audit</h3>
+          <div class="price">$95<small>₹7,999 flat</small></div>
+          <div class="term">1 week · credited in full toward T2 if booked within 21 days</div>
+          <ul>
+            <li>Three wins worth 10+ hours a week, ranked by hours saved × ease</li>
+            <li>Payback math on each, 90-day roadmap</li>
+            <li>Your number-one win scoped as a fixed build quote on page one</li>
+            <li>15-minute Loom walkthrough + 14 days of async questions</li>
+            <li>Out of scope: any build, any custom code</li>
+          </ul>
+          <div class="lock">
+            <span class="tag">Locked</span><span class="name">The 3× Payback Guarantee.</span>
+            “If we can't name 3 wins whose documented time-savings are worth at least 3× the $95 fee inside 5 business days, full refund — and you keep the roadmap and the Loom.” Conditional on receiving read-only access within 72 hours of payment.
+          </div>
+        </div>
+
+        <div class="tier">
+          <div class="who">Tier 2 · the core</div>
+          <h3>One-System Implementation</h3>
+          <div class="price">from $590<small>₹49,999 fixed</small></div>
+          <div class="term">Fixed scope, fixed price, live in 2–3 weeks</div>
+          <ul>
+            <li>One bleeding workflow rebuilt as an always-on system</li>
+            <li>Installed in your stack, used by your team, not a demo</li>
+            <li>30-minute training + Loom library + 14-day bug-fix window</li>
+            <li>Priced from the audit — the quote is page one of the readout</li>
+            <li>Out of scope: a second flow, custom interfaces, migrations</li>
+          </ul>
+          <div class="lock">
+            <span class="tag">Locked</span><span class="name">Live-by-the-Date Guarantee.</span>
+            “Your system live on your data by the setup-doc date, or we work free up to 14 extra days plus a $59 team credit (₹5,000) if we miss by more than 3 days.” Clock pauses only if access or feedback runs over 48 hours late — stated before payment.
+          </div>
+        </div>
+
+        <div class="tier">
+          <div class="who">Tier 3 · the flagship</div>
+          <h3>Your 24×7 AI Team</h3>
+          <div class="price">from $175<small>₹14,999 / month</small></div>
+          <div class="term">Month-to-month, pause or cancel anytime</div>
+          <ul>
+            <li>Daily prospecting plus follow-up against your profile, logged where you can see it</li>
+            <li>Up to two small build-or-fix tickets in flight at a time</li>
+            <li>Weekly wins report with honest zeros; monthly savings readout</li>
+            <li>Company-flat, never per-seat. One pause month a year included</li>
+            <li>Out of scope: full builds, on-call promises, custom app work</li>
+          </ul>
+          <div class="lock">
+            <span class="tag">Locked</span><span class="name">First-30-Day Win Guarantee.</span>
+            “No shipped win in your first 30 days → month 2 free, one time.” Requires access within 72 hours of signup.<br><br>
+            <span class="tag">Locked</span><span class="name">Cancel-Anytime, Keep-Everything.</span>
+            “Cancel any month, keep everything shipped, data deleted in 7 days. All sales final past the 30-day window — because every week after that, the weekly reports prove the work or you would already have left.”
+          </div>
+        </div>
+      </div>
+
+      <div class="ctas">
+        <a class="btn btn-primary" href="https://cal.com/nikhiltahalramani/catchup-1-1">Book a 15-min call →</a>
+        <a class="btn btn-ghost" href="mailto:nikhil@clusterra.cloud">Email nikhil@clusterra.cloud</a>
+      </div>
+      <p class="muted">15 minutes, no deck, no pitch. Bring the workflow that annoys you most; you leave with the map of it either way.</p>
+    </div>
+  </section>
+
+  <div class="band">
+    <section>
+      <div class="wrap">
+        <h2>Why the price reads the way it does</h2>
+        <ul class="anchors">
+          <li><b>Agency discovery: $590-plus (₹50,000)</b>, a 2-week process. Our audit is the same shape, five business days, $95.</li>
+          <li><b>Agency build: $2,350-plus (₹2,00,000)</b>; freelancer custom build <b>$775–1,530 (₹66,000–1,30,000)</b> at ~$26/hr. Our build starts at $590 with a written live date.</li>
+          <li><b>Assistant for follow-up: $235–565 a month salary (₹20,000–48,000)</b>, plus management. Our team is from $175 with the builds included.</li>
+          <li><b>Freelancer list of 10 plus openers: ~$175 one-off (₹15,000)</b>, dead next week. The audit is $95 and finds the system that replaces twelve such lists.</li>
+          <li><b>One lost deal is $470-plus (₹40,000).</b> This is $95–590 spent on leads you already paid for.</li>
+        </ul>
+        <div class="callout" style="margin-top:18px">
+          <p><b>Capacity is real, not a countdown timer.</b> Four audits a month (each gets founder review). Three builds a month, one start per fortnight. Six active retainer clients, three new a month at most — past six the 48-hour turnaround promise breaks. No countdown timers anywhere: urgency here is decay, not theater.</p>
+          <p class="muted">One audit per company per quarter. The 21-day credit deadline is the only clock that matters: booked within 21 days or the $95 stays a roadmap.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <h2>What we will not promise</h2>
+      <p>Closes, booked-call show rates, inbox-placement percentages, uptime percentages, list quality under 200 reachable rows, third-party outages. Promising those is a refund tail we cannot fund, so they are not on this page and never will be. Everything above this line is a guarantee we can pay for.</p>
+      <p class="muted">Also never sold: per-seat pricing, auto-billed overages, annual-only packaging, unlimited runs, bought or scraped list blasts. House lists only.</p>
+    </div>
+  </section>
+
+  <div class="band">
+    <section>
+      <div class="wrap">
+        <h2>Start with the audit</h2>
+        <p class="sub">Tell me the workflow that costs you the most hours. Fifteen minutes on a call, or reply to the email with two time slots — notes come back either way, including if the answer is that we are not the right fit.</p>
+        <div class="ctas">
+          <a class="btn btn-primary" href="https://cal.com/nikhiltahalramani/catchup-1-1">Book a 15-min call →</a>
+          <a class="btn btn-ghost" href="mailto:nikhil@clusterra.cloud">Email nikhil@clusterra.cloud</a>
+        </div>
+        <ul class="trust">
+          <li><span class="tick">✓</span> link plus sheet, no new login</li>
+          <li><span class="tick">✓</span> source link on every row</li>
+          <li><span class="tick">✓</span> data deleted in 7 days, overage pauses, never auto-bills</li>
+        </ul>
+        <p class="sig"><b>— Nikhil</b><br><span class="muted">Clusterra · nikhil@clusterra.cloud</span></p>
+      </div>
+    </section>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <h2>What lands in the DM</h2>
+      <p class="muted">The share card below goes out with the pitch, so the offer is legible before anyone clicks.</p>
+      <img class="ogcard" src="og-summary.png" width="1200" height="630" alt="Clusterra — $95 AI Opportunity Audit: three payback-mapped wins in 5 business days, credited toward a from-$590 build.">
+    </div>
+  </section>
+
+</main>
+
+<footer class="end">
+  <div class="wrap">
+    <p class="muted">Clusterra · offer-first services for solo operators, indie founders and small teams. Prices in USD; ₹ at ₹85 = $1. No login wall on this page.</p>
+  </div>
+</footer>
+
+</body>
+</html>
